@@ -32,6 +32,10 @@ Highlight key points to script:
 * Dq
 * Rich tables
 
+```
+./examples/002_genie_parse_w_rich.py
+```
+
 ## Diff via the Diff+Shell
 * `./examples/003_genie_diff_pre_1.sh`
 * Change interface on spine1
@@ -42,4 +46,4 @@ int Eth1/1
   end
 copy run start
 ```
-* `./examples/005_genie_diff_compare_3.sh`
+* `./examples/004_genie_diff_post_2.sh`
