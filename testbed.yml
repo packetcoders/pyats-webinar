@@ -1,0 +1,113 @@
+devices:
+  leaf1-ios:
+    connections:
+      cli:
+        ip: 172.29.151.3
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: ios
+    type: ios
+  leaf2-ios:
+    connections:
+      cli:
+        ip: 172.29.151.4
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: ios
+    type: ios
+  leaf3-qfx:
+    connections:
+      cli:
+        ip: 172.29.151.5
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: junos
+    type: junos
+  leaf4-qfx:
+    connections:
+      cli:
+        ip: 172.29.151.6
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: junos
+    type: junos
+  leaf5-eos:
+    connections:
+      cli:
+        ip: 172.29.151.7
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: eos
+    type: eos
+  leaf6-eos:
+    connections:
+      cli:
+        ip: 172.29.151.8
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: eos
+    type: eos
+  spine1-nxos:
+    connections:
+      cli:
+        ip: 172.29.151.1
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: nxos
+    type: nxos
+  spine2-nxos:
+    connections:
+      cli:
+        ip: 172.29.151.2
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENV{PYATS_PWORD}'
+        username: '%ENV{PYATS_UNAME}'
+      enable:
+        password: '%ENV{PYATS_PWORD}'
+    os: nxos
+    type: nxos

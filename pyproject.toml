@@ -1,0 +1,18 @@
+[tool.bandit]
+exclude_dirs = [".venv",]
+
+[tool.black]
+exclude = "(.venv)"
+
+[tool.isort]
+profile = "black"
+skip = ".venv"
+balanced_wrapping = true
+atomic = true
+
+[tool.pydocstyle]
+match_dir = '^(?!(.venv)).*'
+
+[tool.mypy]
+exclude = '.env/'
+pretty = true
