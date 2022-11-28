@@ -61,7 +61,7 @@ This example is based upon diff`ing the network pre and post a network change (v
 To run this demo perform the following:
 1. Take a snapshot of the network (pre change):
 ```
-$ ./examples/003_genie_diff_pre_1.sh`
+$ ./examples/003_genie_diff_pre_1.sh
 ```
 2. Make the network change(s).
 3. Take a snapshot of the network (post change):
