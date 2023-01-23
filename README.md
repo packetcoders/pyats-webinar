@@ -1,6 +1,10 @@
 # pyATS Webinar
 
 This repo contains code, and examples from the Packet Coders pyATS webinar.
+
+> **Note**
+> The webinar video can be viewed here: https://youtu.be/epzxoHr2YZE
+
 The 2 demos that are included within this repo are:
 * **Example 1 - Create an interface error report**.
 * **Example 2 - Perform a maintenance diff check**.
